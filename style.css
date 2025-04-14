@@ -1,0 +1,352 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    ul {
+        list-style: none;
+    }
+    .logoh2 {
+        color: #9acd32;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-left: 270px;
+    }
+    section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    body {
+        font-family:"Montserrat", sans-serif;
+    }
+    .clear-fix {
+        clear: both;
+    }
+    #navbar {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 120px;
+    }
+    #navbar .logo {
+        width: 40px;
+        float: left;
+        margin-left: 200px;
+    }
+    
+    #navbar .menu {
+        float: right;
+    }
+    #navbar .menu li{
+     display: inline-block;
+    }
+    #navbar .menu li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin: left 25px;
+        font-size: 18px;
+        margin-top: 14px;
+        display: inline-block;
+    }
+    #banner {
+        height: 100vh;
+        background-image: linear-gradient(#00000085, #00000085), url(../test2/dağ.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        padding: 0 20px;
+    }
+
+    #banner h1{
+        font-weight: bolder;
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+    #banner p {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #banner a {
+        background-color: #17ec0c;
+        padding: 15px 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 500px;
+        border-radius: 70px;
+        transition: all .3s ease;
+    }
+    #banner a:hover{
+        background-color: white;
+        color: rgb(0, 255, 17);
+    }
+    #about {
+        background-color: rgb(255, 255, 255);
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    #about .left {
+        float: left;
+        width: 40%;
+    }
+    #about .right {
+        float: right;
+        width: 60%;
+        padding-left: 15px;
+    }
+    #about .left img{
+        width: 80%;
+        border-radius: 10px;
+    }
+    #about .right h2 {
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+        margin-top: 120px;
+    }
+    #about .right p {
+        color: #777777;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify ;
+    }
+    .navbar-items {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    html {
+        scroll-behavior:  smooth; 
+    }
+    
+    .btn {
+        background-color: #17ec0c;
+        padding: 15px 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 500px;
+        border-radius: 70px;
+        transition: all .3s ease;
+    }
+    .p {
+      text-align: center;
+    }
+
+    #green-banner {
+        background-color: #9acd32;
+        padding: 50px 40px;
+        text-align: center;
+        color: white;
+        margin-top: -400px; 
+      }
+      
+      
+      #green-banner .icon {
+        width: 120px;
+        margin-bottom: 10px;
+      }
+      
+      #green-banner h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      
+      #green-banner p {
+        font-size: 16px;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+      #microphone { 
+        background-color: white;
+        padding: 10px 80px;
+      
+        margin-top: 130px;
+    
+    }
+    .microphone-parent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .microphone-classifyit-right {
+        background-color: #9acd32;
+        padding: 15px 30px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 500px;
+        margin-top: 10px;
+        margin-left: 75px;
+        display: inline-block;
+      }
+
+      .microphone-left img {
+        width: 500px;
+        height: 330px;
+        object-fit: cover; 
+        border-radius: 50%;
+        margin-left: 120px;
+      }
+
+      .microphone-right-title {
+      color: #333333;
+      margin-left: 80px;
+      margin-bottom: 10px;
+      }
+
+      .microphone-right-text {
+      font-size: 20px; 
+      margin-bottom: 15px;
+      color: #777777;
+      padding: 0px 80px;
+      text-align: left;
+      }
+
+      #iphone-banner  {
+        background-color: #333333;
+        padding: 90px 110px;
+        color: #ffffffb3;
+        margin-top: 130px;
+    }
+    .iphone-banner-parent{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .iphone-banner-left{
+      text-align: left;
+      padding: 0 80px;
+    }
+    .iphone-banner-left-text{
+      font-size: 20px; 
+      margin-bottom: 15px;
+    }
+    .iphone-banner-left-title{
+      color: white;
+      margin-bottom: 15px;   
+    }
+    .iphone-banner-left-button{
+      background-color: #ffffff;
+      padding: 15px 30px;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-weight: 500px;
+      border-radius: 70px;
+      transition: all .3s ease;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    .iphone-banner-right img{
+      width: 500px;
+      height: 370px;
+      object-fit: cover; 
+      border-radius: 50%;
+    }
+      
+          #albums {
+            padding-top: 0%;
+            padding-bottom: 40px;
+            margin: 0px;
+        }
+        #albums h2 {
+            color: white;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        #albums .albums .album {
+            width: 32%;
+            float: left;
+            background-color: white;
+            border-radius: 0px;
+            padding: 0%; 
+            border-radius: 0px;
+            transition: all .3s ease;
+            cursor: pointer;
+        }
+        #albums .albums .album:nth-of-type(2n){
+            margin: 0px 2%;
+        }
+        #albums .albums .album img {
+            width: 100%;
+        }
+        #albums .albums .album p.price { 
+            color: #d00000;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        #albums .albums .album:hover {
+            box-shadow: 0px 0px 20px 3px rgb(111, 110, 110);
+        }
+        #content a {
+            background-color: #9acd32;
+            padding: 15px 30px;
+            color: white;
+            text-decoration: none;
+            border-radius: 70px;
+            transition: all .3s ease;
+            margin-left: 670px;
+            margin-top: 10px;
+            display: inline-block;
+          }
+          #content a:hover{
+            background-color: rgb(65, 196, 47);
+            color: rgb(255, 255, 255);
+        }
+          #content h2 {
+          text-align: center;
+          color: #333333;
+          }
+          #content p {
+            font-size: 20px;
+            max-width: 700px;
+            margin-left: 400px;
+            color: #777777;
+          }
+          #contactus {
+            background-color: #9acd32;
+            padding: 120px 70px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+          }
+#copyright .p {
+  text-align: center;
+}
+p { 
+  text-align: center;
+}
+
+.pin-image img {
+  width: 35px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+.contact-image img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.message-image img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: -5px;
+  margin-top: 10px;
+}
+.copyright { 
+  background-color: white;
+  height: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
