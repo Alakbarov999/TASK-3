@@ -11,7 +11,10 @@
         font-size: 25px;
         font-weight: bolder;
         margin-left: 270px;
+        display: flex;
+        align-items: center;
     }
+    
     section {
         padding-left: 0px;
         padding-right: 0px;
@@ -331,13 +334,11 @@ p {
 .albums-parent .album img {
   width: 100%;
 }
-.sanityh2 {
-  margin-top: -15px;
-  margin-bottom: 15px;
-}
+
 .paragraf {
   margin-bottom: 20px;
 }
+
 .centered {
   position: absolute;
   top: 50%;
@@ -348,4 +349,26 @@ p {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.icon {
+  width: 30px;
+  margin-left: 120px;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #94c120; 
+}
+.logotext {
+  font-size: 24px;
+  font-weight: bold;
+  color: #94c120; 
 }
