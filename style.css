@@ -250,42 +250,18 @@
       height: 370px;
       object-fit: cover; 
       border-radius: 50%;
+
     }
-      
-          #albums {
-            padding-top: 0%;
-            padding-bottom: 40px;
-            margin: 0px;
-        }
-        #albums h2 {
-            color: white;
-            font-size: 30px;
-            margin-bottom: 50px;
-        }
-        #albums .albums .album {
-            width: 32%;
-            float: left;
-            background-color: white;
-            border-radius: 0px;
-            padding: 0%; 
-            border-radius: 0px;
-            transition: all .3s ease;
-            cursor: pointer;
-        }
-        #albums .albums .album:nth-of-type(2n){
-            margin: 0px 2%;
-        }
-        #albums .albums .album img {
-            width: 100%;
-        }
-        #albums .albums .album p.price { 
-            color: #d00000;
-            font-size: 30px;
-            font-weight: bolder;
-        }
-        #albums .albums .album:hover {
-            box-shadow: 0px 0px 20px 3px rgb(111, 110, 110);
-        }
+    #content{
+      padding: 30px 40px;
+    }
+    
+  .content-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
         #content a {
             background-color: #9acd32;
             padding: 15px 30px;
@@ -293,7 +269,6 @@
             text-decoration: none;
             border-radius: 70px;
             transition: all .3s ease;
-            margin-left: 670px;
             margin-top: 10px;
             display: inline-block;
           }
@@ -308,7 +283,6 @@
           #content p {
             font-size: 20px;
             max-width: 700px;
-            margin-left: 400px;
             color: #777777;
           }
           #contactus {
@@ -330,7 +304,6 @@ p {
   height: 40px;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 250px;
 }
 .contact-image img {
   width: 35px;
@@ -349,4 +322,30 @@ p {
   height: 100px;
   text-align: center;
   margin-top: 100px;
+}
+.albums-parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.albums-parent .album img {
+  width: 100%;
+}
+.sanityh2 {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+.paragraf {
+  margin-bottom: 20px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
