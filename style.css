@@ -29,7 +29,12 @@ body {
   padding-top: 10px;
   padding-bottom: 20px;
   background-color: rgb(255, 255, 255);
-  margin-right: 120px;
+}
+.navbar-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
 }
 #navbar .logo {
   width: 40px;
@@ -358,10 +363,12 @@ gap: 10px;
 
 .icon {
 width: 30px;
-margin-left: 120px;
 height: auto;
 }
-
+.fireicon {
+  width: 30px;
+  margin-left: 70px;
+}
 .logo-text {
 font-size: 24px;
 font-weight: bold;
