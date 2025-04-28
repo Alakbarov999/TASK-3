@@ -1,374 +1,369 @@
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    ul {
-        list-style: none;
-    }
-    .logoh2 {
-        color: #9acd32;
-        font-size: 25px;
-        font-weight: bolder;
-        margin-left: 270px;
-        display: flex;
-        align-items: center;
-    }
-    
-    section {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    body {
-        font-family:"Montserrat", sans-serif;
-    }
-    .clear-fix {
-        clear: both;
-    }
-    #navbar {
-        padding-top: 10px;
-        padding-bottom: 20px;
-        background-color: rgb(255, 255, 255);
-        margin-right: 120px;
-    }
-    #navbar .logo {
-        width: 40px;
-        float: left;
-        margin-left: 200px;
-    }
-    
-    #navbar .menu {
-        float: right;
-    }
-    #navbar .menu li{
-     display: inline-block;
-    }
-    #navbar .menu li a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        margin: left 25px;
-        font-size: 18px;
-        margin-top: 14px;
-        display: inline-block;
-    }
-    #banner {
-        height: 100vh;
-        background-image: linear-gradient(#00000085, #00000085), url(../test2/dağ.jpg);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-top: 30vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center; 
-        padding: 0 20px;
-    }
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.logoh2 {
+  color: #9acd32;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 270px;
+  display: flex;
+  align-items: center;
+}
 
-    #banner h1{
-        font-weight: bolder;
-        color: white;
-        font-size: 70px;
-        text-align: center;
-    }
-    #banner p {
-        color: white;
-        font-size: 16px;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    #banner a {
-        background-color: #17ec0c;
-        padding: 15px 30px;
-        color: white;
-        text-decoration: none;
-        font-weight: 500px;
-        border-radius: 70px;
-        transition: all .3s ease;
-    }
-    #banner a:hover{
-        background-color: white;
-        color: rgb(0, 255, 17);
-    }
-    #about {
-        background-color: rgb(255, 255, 255);
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
-    #about .left {
-        float: left;
-        width: 40%;
-    }
-    #about .right {
-        float: right;
-        width: 60%;
-        padding-left: 15px;
-    }
-    #about .left img{
-        width: 80%;
-        border-radius: 10px;
-    }
-    #about .right h2 {
-        color: rgb(0, 0, 0);
-        margin-bottom: 20px;
-        margin-top: 120px;
-    }
-    #about .right p {
-        color: #777777;
-        font-size: 18px;
-        line-height: 30px;
-        text-align: justify ;
-    }
-    .navbar-items {
-        display: inline-block;
-        margin-right: 10px;
-    }
-    html {
-        scroll-behavior:  smooth; 
-    }
-    
-    .btn {
-        background-color: #17ec0c;
-        padding: 15px 30px;
-        color: white;
-        text-decoration: none;
-        font-weight: 500px;
-        border-radius: 70px;
-        transition: all .3s ease;
-    }
-    .p {
-      text-align: center;
-    }
+section {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+body {
+  font-family:"Montserrat", sans-serif;
+}
+.clear-fix {
+  clear: both;
+}
+#navbar {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 120px;
+}
+#navbar .logo {
+  width: 40px;
+  float: left;
+  margin-left: 200px;
+}
 
-    #green-banner {
-        background-color: #9acd32;
-        padding: 50px 40px;
-        text-align: center;
-        color: white;
-        margin-top: -400px; 
-      }
-      
-      
-      #green-banner .icon {
-        width: 120px;
-        margin-bottom: 10px;
-      }
-      
-      #green-banner h2 {
-        font-size: 28px;
-        font-weight: bold;
-        margin-bottom: 15px;
-      }
-      
-      #green-banner p {
-        font-size: 16px;
-        max-width: 700px;
-        margin: 0 auto;
-        line-height: 1.6;
-      }
-      #microphone { 
-        background-color: white;
-        padding: 10px 80px;
-      
-        margin-top: 130px;
-    
-    }
-    .microphone-parent {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-    
-      .microphone-classifyit-right {
-        background-color: #9acd32;
-        padding: 15px 30px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        border-radius: 500px;
-        margin-top: 10px;
-        margin-left: 75px;
-        display: inline-block;
-      }
+#navbar .menu {
+  float: right;
+}
+#navbar .menu li{
+display: inline-block;
+}
+#navbar .menu li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: left 25px;
+  font-size: 18px;
+  margin-top: 14px;
+  display: inline-block;
+}
+#banner {
+  height: 100vh;
+  background-image: linear-gradient(#00000085, #00000085), url(../test2/dağ.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  padding: 0 20px;
+}
 
-      .microphone-left img {
-        width: 500px;
-        height: 330px;
-        object-fit: cover; 
-        border-radius: 50%;
-        margin-left: 120px;
-      }
+#banner h1{
+  font-weight: bolder;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+#banner p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#banner a {
+  background-color: #17ec0c;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  border-radius: 70px;
+  transition: all .3s ease;
+}
+#banner a:hover{
+  background-color: white;
+  color: rgb(0, 255, 17);
+}
+#about {
+  background-color: rgb(255, 255, 255);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+#about .left {
+  float: left;
+  width: 40%;
+}
+#about .right {
+  float: right;
+  width: 60%;
+  padding-left: 15px;
+}
+#about .left img{
+  width: 80%;
+  border-radius: 10px;
+}
+#about .right h2 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+#about .right p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify ;
+}
+.navbar-items {
+  display: inline-block;
+  margin-right: 10px;
+}
+html {
+  scroll-behavior:  smooth; 
+}
 
-      .microphone-right-title {
-      color: #333333;
-      margin-left: 80px;
-      margin-bottom: 10px;
-      }
+.btn {
+  background-color: #17ec0c;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  border-radius: 70px;
+  transition: all .3s ease;
+}
+.p {
+text-align: center;
+}
 
-      .microphone-right-text {
-      font-size: 20px; 
-      margin-bottom: 15px;
-      color: #777777;
-      padding: 0px 80px;
-      text-align: left;
-      }
+#green-banner {
+  background-color: #9acd32;
+  padding: 50px 40px;
+  text-align: center;
+  color: white;
+  margin-top: -400px; 
+}
 
-      #iphone-banner  {
-        background-color: #333333;
-        padding: 90px 110px;
-        color: #ffffffb3;
-        margin-top: 130px;
-    }
-    .iphone-banner-parent{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .iphone-banner-left{
-      text-align: left;
-      padding: 0 80px;
-    }
-    .iphone-banner-left-text{
-      font-size: 20px; 
-      margin-bottom: 15px;
-    }
-    .iphone-banner-left-title{
-      color: white;
-      margin-bottom: 15px;   
-    }
-    .iphone-banner-left-button{
-      background-color: #ffffff;
+
+#green-banner .icon {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+#green-banner h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#green-banner p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+#microphone { 
+  background-color: white;
+  padding: 10px 80px;
+
+  margin-top: 130px;
+
+}
+.microphone-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.microphone-classifyit-right {
+  background-color: #9acd32;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 500px;
+  margin-top: 10px;
+  margin-left: 75px;
+  display: inline-block;
+}
+
+.microphone-left img {
+  width: 500px;
+  height: 330px;
+  object-fit: cover; 
+  border-radius: 50%;
+  margin-left: 120px;
+}
+
+.microphone-right-title {
+color: #333333;
+margin-left: 80px;
+margin-bottom: 10px;
+}
+
+.microphone-right-text {
+font-size: 20px; 
+margin-bottom: 15px;
+color: #777777;
+padding: 0px 80px;
+text-align: left;
+}
+
+#iphone-banner  {
+  background-color: #333333;
+  padding: 90px 110px;
+  color: #ffffffb3;
+  margin-top: 130px;
+}
+.iphone-banner-parent{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.iphone-banner-left{
+text-align: left;
+padding: 0 80px;
+}
+.iphone-banner-left-text{
+font-size: 20px; 
+margin-bottom: 15px;
+}
+.iphone-banner-left-title{
+color: white;
+margin-bottom: 15px;   
+}
+.iphone-banner-left-button{
+background-color: #ffffff;
+padding: 15px 30px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-weight: 500px;
+border-radius: 70px;
+transition: all .3s ease;
+margin-top: 10px;
+display: inline-block;
+}
+.iphone-banner-right img{
+width: 500px;
+height: 370px;
+object-fit: cover; 
+border-radius: 50%;
+
+}
+#content{
+padding: 30px 40px;
+}
+
+.content-parent{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+  #content a {
+      background-color: #9acd32;
       padding: 15px 30px;
-      color: rgb(0, 0, 0);
+      color: white;
       text-decoration: none;
-      font-weight: 500px;
       border-radius: 70px;
       transition: all .3s ease;
       margin-top: 10px;
       display: inline-block;
     }
-    .iphone-banner-right img{
-      width: 500px;
-      height: 370px;
-      object-fit: cover; 
-      border-radius: 50%;
-
-    }
-    #content{
-      padding: 30px 40px;
-    }
-    
-  .content-parent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    #content a:hover{
+      background-color: rgb(65, 196, 47);
+      color: rgb(255, 255, 255);
   }
-        #content a {
-            background-color: #9acd32;
-            padding: 15px 30px;
-            color: white;
-            text-decoration: none;
-            border-radius: 70px;
-            transition: all .3s ease;
-            margin-top: 10px;
-            display: inline-block;
-          }
-          #content a:hover{
-            background-color: rgb(65, 196, 47);
-            color: rgb(255, 255, 255);
-        }
-          #content h2 {
-          text-align: center;
-          color: #333333;
-          }
-          #content p {
-            font-size: 20px;
-            max-width: 700px;
-            color: #777777;
-          }
-          #contactus {
-            background-color: #9acd32;
-            padding: 120px 70px;
-            text-align: center;
-            color: white;
-            margin-top: 30px;
-          }
+    #content h2 {
+    text-align: center;
+    color: #333333;
+    }
+    #content p {
+      font-size: 20px;
+      max-width: 700px;
+      color: #777777;
+    }
+    #contactus {
+      background-color: #9acd32;
+      padding: 120px 70px;
+      text-align: center;
+      color: white;
+      margin-top: 30px;
+    }
 #copyright .p {
-  text-align: center;
+text-align: center;
 }
 p { 
-  text-align: center;
+text-align: center;
 }
 
 .pin-image img {
-  width: 35px;
-  height: 40px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+width: 35px;
+height: 40px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 .contact-image img {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 0px;
-  margin-top: 10px;
+width: 35px;
+height: 35px;
+margin-bottom: 0px;
+margin-top: 10px;
 }
 .message-image img {
-  width: 35px;
-  height: 35px;
-  margin-bottom: -5px;
-  margin-top: 10px;
+width: 35px;
+height: 35px;
+margin-bottom: -5px;
+margin-top: 10px;
 }
 .copyright { 
-  background-color: white;
-  height: 100px;
-  text-align: center;
-  margin-top: 100px;
+background-color: white;
+height: 100px;
+text-align: center;
+margin-top: 100px;
 }
 .albums-parent{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .albums-parent .album img {
-  width: 100%;
+width: 100%;
 }
 
 .paragraf {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+position: absolute;
+bottom: 8px;
+left: 16px;
 }
 .logo-container {
-  display: flex;
-  align-items: center;
-  gap: 10px; 
+display: flex;
+align-items: center;
+gap: 10px; 
 }
 
 .icon {
-  width: 30px;
-  margin-left: 120px;
-  height: auto;
+width: 30px;
+margin-left: 120px;
+height: auto;
 }
 
 .logo-text {
-  font-size: 24px;
-  font-weight: bold;
-  color: #94c120; 
-}
-.logotext {
-  font-size: 24px;
-  font-weight: bold;
-  color: #94c120; 
+font-size: 24px;
+font-weight: bold;
+color: #94c120; 
 }
